@@ -1,0 +1,72 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url('https://s2.best-wallpaper.net/wallpaper/2880x1800/1807/Football-Russia-2018-FIFA-World-Cup_2880x1800.jpg');
+    background-size: cover;
+    background-position: center center;
+
+
+    
+}
+
+.input-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-container > label{
+    margin-top: 20px;
+    color: whitesmoke;
+}
+
+.input-container > input{    /* Todos los inputs dentro de mi contenedor inputs */
+    width: 250px;
+    background-color: black;
+    color: white;
+    border: solid ipx black;
+    padding-left: 15px;
+    border-radius: 20px;    
+    
+
+}
+
+.input-container >::placeholder{
+    color: white;
+    padding-left: 5px;
+
+}
+
+.input-container > button{
+    margin-top: 20px;
+    border: solid 1px white;
+    background-color: black;
+    color: white
+}
+
+.input-container > button:hover{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
+
+.card-container{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+
+
+.desaparecer{
+    display: none;
+}
